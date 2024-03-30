@@ -11,4 +11,4 @@ spec:
     targetPort: 80 #change to 80
   selector:
     app: pod-metadata
-  type: NodePort
+  type: LoadBalancer
